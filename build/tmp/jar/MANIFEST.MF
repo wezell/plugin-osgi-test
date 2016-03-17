@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS  / This should work!
+Bundle-SymbolicName: plugin-osgi-test
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1458217848000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.osgi.framework;version="[1.7,
+ 2)",com.dotmarketing.osgi,com.dotmarketing.util,javax.servlet.http;ve
+ rsion="[2.5,3)",org.apache.velocity.tools.view,org.apache.velocity.to
+ ols.view.context,org.apache.velocity.tools.view.servlet,org.apache.ve
+ locity.tools.view.tools
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotcms.osgi.testtool;version="0.1";uses:="com.dotc
+ ms.repackage.org.osgi.framework,com.dotmarketing.osgi,org.apache.velo
+ city.tools.view.servlet,org.apache.velocity.tools.view.tools"
+Bundle-Name: OSGi Test
+Bundle-Version: 0.1
+Bundle-Activator: com.dotcms.osgi.testtool.Activator
+Created-By: 1.8.0_51 (Oracle Corporation)
+
